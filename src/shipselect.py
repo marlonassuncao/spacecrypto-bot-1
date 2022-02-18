@@ -157,7 +157,7 @@ def selectShips():
             handleWaitOrFight()
 
         shipsAvailable = helper.getImagePositions(
-            'ship-fight-button.png', 0.9)
+            'ship-fight-button.png', 0.97)
 
         print('Ships available: ', len(shipsAvailable))
         if(len(shipsAvailable) < 1):
@@ -183,7 +183,7 @@ def selectShips():
                 continue
 
             shipsAvailable = helper.getImagePositions(
-                'ship-fight-button.png', 0.9)
+                'ship-fight-button.png', 0.97)
 
             if(len(shipsAvailable) > 0):
                 amount = 2
@@ -239,7 +239,7 @@ def startFight():
 def scroll(amount=12):
     while(True):
         shipsAvailable = helper.getImagePositions(
-            'ship-fight-button.png', 0.9)
+            'ship-fight-button.png', 0.97)
 
         if(len(shipsAvailable) > 0):
             return amount

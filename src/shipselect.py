@@ -272,7 +272,7 @@ def scroll(amount=12):
         helper.moveDestination(pos_x, pos_y, 1)
         #pyautogui.moveTo(x+50, y+100, 1)
 
-        pyautogui.dragRel(0, -200, duration=1, button='left')
+        pyautogui.dragRel(0, -100, duration=1, button='left')
         sleep(2)
 
 
